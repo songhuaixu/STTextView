@@ -39,6 +39,7 @@ struct ContentView: View {
                 options: options
             )
             .textViewFont(font)
+            .ignoresSafeArea(.container)
             .navigationTitle("STTextView")
             #if os(iOS)
             .navigationBarTitleDisplayMode(.inline)
